@@ -14,7 +14,6 @@ layout: default
 
 <div class="content">
   <div class="post">{{ content }}</div>
-  {% include share-page.html %}
 </div>
 
 {% assign hasSimilar = '' %}
@@ -44,7 +43,7 @@ layout: default
   </ul>
 </div>
 {% endif %}
-
+<hr>
 <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>

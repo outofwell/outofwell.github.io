@@ -7,6 +7,32 @@ body {
   color: #666;
 }
 
+/* sap add start */
+.post-header {
+  /* margin-top: 35px; */
+}
+
+div.content {
+  top: 5px;
+  padding-top: 20px;
+  /* border-top: 0.1px solid #b8b1be; */
+}
+
+div.post {
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+ol.posts li {
+  margin-bottom: 10px;
+}
+
+div.post p {
+  line-height: 1.2em;
+}
+
+/* sap add end */
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -18,7 +44,17 @@ span.time, span.categories {
   color: #ADADAD;
   margin-bottom: 5px;
   font-size: 11px;
+  /* position: absolute; */
 }
+
+span.time {
+  /* right: 25px; */
+}
+
+span.categories {
+  /* right: 14px; */
+}
+
 h1, h2, h3 {
   color: #696969;
   font-weight: normal;
@@ -73,7 +109,7 @@ footer {
   border-top: 1px solid #F7F1F1;
   width: 100%;
   height: 10px;
-  margin-top: 10px;
+  margin-top: /*  10px; */ 20px;
   margin-bottom: 3em;
   padding-top: 10px;
   color: #C2C2C2;
@@ -104,12 +140,15 @@ div.col-sm-3 div.profile-about {
   display: block;
   width: auto;
   overflow: hidden;
+  /* border-top: 0.1px solid #727272; */
+  margin-bottom: 2em;
 }
 .PageNavigation a {
   display: block;
-  width: 50%;
+  width: /* 50%; */ 100%;
   float: left;
-  margin: 1em 0;
+  /* margin: 1em 0; */
+  margin-bottom: 1em;
 }
 .PageNavigation .next {
   text-align: right;
